@@ -1,7 +1,10 @@
 // Import necessary modules
-const express = require("express");
-const bodyParser = require("body-parser"); /// common js sync
-require("dotenv").config();
+import express from "express";
+import bodyParser from "body-parser";
+
+import dotenv from "dotenv";
+dotenv.config(); // this is used in module js async and also
+
 // Create an Express application
 const app = express();
 
